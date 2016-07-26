@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>Tecnología e ingeniería</string>
+		<string>https://jobs.telefonica.com/services/rss/category/?catid=707301</string>
+	</array>
+	<array>
+		<string>TV, vídeo y medios</string>
+		<string>https://jobs.telefonica.com/services/rss/category/?catid=707701</string>
+	</array>
+	<array>
+		<string>Talentum, MBA y Wayra</string>
+		<string>https://jobs.telefonica.com/services/rss/category/?catid=707001</string>
+	</array>
+    <array>
+        <string>Inteligencia de negocio y Big Data</string>
+        <string>https://jobs.telefonica.com/services/rss/category/?catid=706001</string>
+    </array>
+    <array>
+        <string>Comercio electrónico</string>
+        <string>https://jobs.telefonica.com/services/rss/category/?catid=704901</string>
+    </array>
+    <array>
+        <string>Innovación y futuro digital</string>
+        <string>https://jobs.telefonica.com/services/rss/category/?catid=705601</string>
+    </array>
+    <array>
+        <string>Ventas</string>
+        <string>https://jobs.telefonica.com/services/rss/category/?catid=707801</string>
+    </array>
+    <array>
+        <string>Tiendas y minoristsa</string>
+        <string>https://jobs.telefonica.com/services/rss/category/?catid=707401</string>
+    </array>
+    <array>
+        <string>Centro de llamadas y Servicio al cliente</string>
+        <string>https://jobs.telefonica.com/services/rss/category/?catid=704801</string>
+    </array>
+    <array>
+        <string>Funciones de Soporte al Negocio</string>
+        <string>https://jobs.telefonica.com/services/rss/category/?catid=989101</string>
+    </array>
+</array>
+</plist>

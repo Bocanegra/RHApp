@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="TelefonicaText-Bold.otf">
+            <string>TelefonicaText-Bold</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Telefónica Jobs" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kdi-G0-S8M">
+                                <rect key="frame" x="10" y="73" width="355" height="55"/>
+                                <fontDescription key="fontDescription" name="TelefonicaText-Bold" family="Telefonica Text" pointSize="43"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <size key="shadowOffset" width="1" height="-1"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon180" translatesAutoresizingMaskIntoConstraints="NO" id="5c2-Ij-4gd">
+                                <rect key="frame" x="127" y="274" width="120" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="Vx1-KT-ghb"/>
+                                    <constraint firstAttribute="height" constant="120" id="b8B-FV-hdS"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1843137255" green="0.38823529410000002" blue="0.50588235290000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="Kdi-G0-S8M" secondAttribute="trailing" constant="-6" id="BJr-gJ-b80"/>
+                            <constraint firstItem="Kdi-G0-S8M" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-6" id="DHe-ke-WVP"/>
+                            <constraint firstItem="5c2-Ij-4gd" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="L8p-5h-AMQ"/>
+                            <constraint firstItem="Kdi-G0-S8M" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="73" id="dMk-lS-UTm"/>
+                            <constraint firstItem="Kdi-G0-S8M" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="pnN-m7-evp"/>
+                            <constraint firstItem="5c2-Ij-4gd" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="wJm-cH-L3u"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.5" y="425.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon180" width="90" height="90"/>
+    </resources>
+</document>

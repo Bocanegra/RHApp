@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="TelefonicaText-Regular.otf">
+            <string>TelefonicaText</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view alpha="0.0" contentMode="scaleToFill" id="iN0-l3-epB" userLabel="Vacantes Header View" customClass="HeaderTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.8500000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p8l-cM-zz9">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" alpha="0.80000000000000004" tag="300" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="site-right-arrow" translatesAutoresizingMaskIntoConstraints="NO" id="PKq-ud-YPt">
+                            <rect key="frame" x="20" y="14" width="42" height="42"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="42" id="0BY-PM-rQO"/>
+                                <constraint firstAttribute="height" constant="42" id="XIt-lp-Ivd"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" tag="301" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Centro de llamadas y Servicio al cliente" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZGb-8j-G3p" userLabel="Nombre categoría">
+                            <rect key="frame" x="70" y="8" width="250" height="54"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="54" id="VXf-Aw-tIK"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="TelefonicaText" family="Telefonica Text" pointSize="20"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" tag="302" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kKB-Zr-7NO" userLabel="Numero vacantes">
+                            <rect key="frame" x="338" y="8" width="0.0" height="26"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="26" id="Sb5-uh-us9"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="22"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" tag="303" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4TF-8Z-o3R" userLabel="Logo">
+                            <rect key="frame" x="313" y="32" width="50" height="30"/>
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="W6w-va-OKn"/>
+                                <constraint firstAttribute="width" constant="50" id="yO7-tM-Yao"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.18431372549019609" green="0.38823529411764707" blue="0.50588235294117645" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="centerY" secondItem="PKq-ud-YPt" secondAttribute="centerY" id="Nco-EZ-ZU0"/>
+                        <constraint firstAttribute="centerY" secondItem="ZGb-8j-G3p" secondAttribute="centerY" constant="0.5" id="On4-07-WDL"/>
+                        <constraint firstItem="4TF-8Z-o3R" firstAttribute="centerX" secondItem="kKB-Zr-7NO" secondAttribute="centerX" id="PKL-4Q-aCQ"/>
+                        <constraint firstItem="kKB-Zr-7NO" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="ZGb-8j-G3p" secondAttribute="trailing" constant="10" id="QQk-ac-mvS"/>
+                        <constraint firstItem="kKB-Zr-7NO" firstAttribute="top" secondItem="p8l-cM-zz9" secondAttribute="top" constant="8" id="dJ0-yt-jGs"/>
+                        <constraint firstAttribute="trailing" secondItem="4TF-8Z-o3R" secondAttribute="trailing" constant="12" id="ej0-f0-QiR"/>
+                        <constraint firstItem="ZGb-8j-G3p" firstAttribute="leading" secondItem="p8l-cM-zz9" secondAttribute="leading" constant="70" id="hvI-Sr-OaJ"/>
+                        <constraint firstItem="PKq-ud-YPt" firstAttribute="leading" secondItem="p8l-cM-zz9" secondAttribute="leading" constant="20" id="lUG-AT-p7d"/>
+                        <constraint firstAttribute="bottom" secondItem="4TF-8Z-o3R" secondAttribute="bottom" constant="8" id="qVF-Qn-aGD"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="p8l-cM-zz9" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Rth-k0-W3U"/>
+                <constraint firstItem="p8l-cM-zz9" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="cBX-DW-rKI"/>
+                <constraint firstAttribute="trailing" secondItem="p8l-cM-zz9" secondAttribute="trailing" id="gB2-bG-6PY"/>
+                <constraint firstAttribute="bottom" secondItem="p8l-cM-zz9" secondAttribute="bottom" id="ibl-pR-gZS"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="220.5" y="40"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="site-right-arrow" width="19" height="31"/>
+    </resources>
+</document>
